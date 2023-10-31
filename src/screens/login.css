@@ -32,3 +32,58 @@ border: none;
 cursor: pointer;
 font-weight: 600;
 }
+
+@media (max-width: 768px) and (max-height: 572px)  { 
+
+    .loginScreen{
+        position: relative;
+        height: 100%;
+        background: url('https://drive.google.com/file/d/14PJ6HmtaloYexh_YgI1QwhKYRNP8RJ_T/view') center no-repeat;
+        background-size:cover;
+    
+    }
+    
+    #FormScreen{
+        width: 100%;
+        padding: 30px;
+    }
+
+    #h2{
+        font-size: 20px;
+    }
+#FormScreen  input{
+    width: 250px;
+    height:30px;
+    padding: 10px;
+}
+.btn1{
+    padding-left:10px;
+}
+
+
+    .loginScreen__logo{
+        position: fixed;
+        left: 0;
+        width: 70px;
+          object-fit: contain;
+          padding-left: 20px;
+          margin-top: 10px;
+    }
+    .loginScreen__gradient{
+        width: 80%;
+        z-index: 1;
+        height: 100vh;
+    }
+    .loginScreen__button{
+        position: fixed;
+    right: 20px; 
+    top: 20px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1rem;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    }
+    } 

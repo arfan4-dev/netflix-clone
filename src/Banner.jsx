@@ -27,13 +27,13 @@ const Banner = () => {
 // console.log('movie:',movie)
   return (
     <header
-      className="banner"
+      className="banner sm:w-full"
       style={{
         backgroundImage: `url('https://image.tmdb.org/t/p/original/${movie?.backdrop_path}')`,
         backgroundSize: "cover",
         backgroundPosition: "center center",
         
-      }}
+      }} 
     >
       <div className="banner__contents">
         <h1 className="banner__title">{movie?.title || movie?.name || movie?.original_name}</h1>

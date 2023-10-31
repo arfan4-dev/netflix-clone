@@ -34,9 +34,9 @@ function Login() {
             <img className='loginScreen__logo' src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="" />
        
 
-       <div className="flex justify-center items-center h-screen">
+       <div className="flex justify-center items-center h-screen" id='FormScreen'>
       <div className="bg-gray-800 bg-opacity-70 p-8 rounded shadow-md w-96">
-        <h2 className="text-2xl text-white mb-4">Sign In</h2>
+        <h2 className="text-2xl text-white mb-4" id='h2'>Sign In</h2>
         <form onSubmit={submitHandler}>
           
           <input
@@ -53,13 +53,14 @@ function Login() {
           />
             {
             loader ? ( <button
+
               type="submit"
-              className="flex justify-center w-full bg-red-600 text-white p-2 rounded hover:bg-red-700"
+              className="btn1 flex justify-center w-full bg-red-600 text-white p-2 rounded hover:bg-red-700"
             >
               <Loader/>
             </button>):( <button
             type="submit"
-            className="w-full bg-red-600 text-white p-2 rounded hover:bg-red-700"
+            className="btn1 w-full bg-red-600 text-white p-2 rounded hover:bg-red-700"
           >
             Sign In
           </button>)
@@ -69,25 +70,7 @@ function Login() {
           </div>
         </form>
 
-{/* <div class="container"> */}
-        {/* <div class="form-container">
-            <h2>Sign Up</h2>
-            <form id="signup-form">
-                <input type="text" placeholder="Full Name" required />
-                <input type="email" placeholder="Email" required />
-                <input type="password" placeholder="Password" required />
-                <button type="submit">Sign Up</button>
-            </form>
-        </div>
-        <div class="form-container">
-            <h2>Sign In</h2>
-            <form id="signin-form">
-                <input type="email" placeholder="Email" required />
-                <input type="password" placeholder="Password" required />
-                <button type="submit">Sign In</button>
-            </form>
-        </div> */}
-    {/* </div> */}
+
 
       </div>
     </div>

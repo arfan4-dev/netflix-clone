@@ -80,3 +80,110 @@
 }
 
 
+@media (max-width: 768px) and (max-height: 572px)  { 
+    
+
+    .profileScreen{
+        height: 100%;
+        color: white;
+    }
+    
+    .profileScreen__body{
+        
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 8px;
+            max-width: 800px;
+            
+            
+    }
+    .profileScreen__info{
+        margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        justify-items: center;
+    }
+    
+    .profileScreen__info > img{
+        /* height: 50px;
+        width:50px; */
+        display: none;
+    }
+    
+    .profileScreen__info >h1{
+        font-size: 60px;
+        font-weight: 400;
+        border-bottom:1px solid #282c2d ;
+        margin-bottom: 20px;
+    }
+    .profileScreen__details{
+        color: white;
+        margin-left: 25px;
+        flex: 1;
+        
+        
+    }
+     
+    .profileScreen__details > h2{
+        background-color: gray;
+        padding: 10px;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    
+    .profileScreen__plans{
+        margin-top: 20px;
+    }
+    .profileScreen__plans >h3{
+        border-bottom: 1px solid #282c2d;
+    }
+    
+    .profileScreen__signout{
+        padding: 5px 10px;
+        font-size:10px;
+        margin-top:5% ;
+        width: 100%;
+        color: #fff;
+        background-color: #e50914;
+    }
+    
+    .profileScreen__plans__details{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        padding: 5px;
+    }
+    .profileScreen__plans__details_btn{
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 10px;
+    
+    }
+    .profileScreen__plans__details:hover .profileScreen__plans__div {
+        background-color: #2a2e2f;
+        color: white;
+        width: 200px;
+      }
+    
+    .profileScreen__plans__details_btnP{
+       font-size: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: gray;
+    }
+    h3,h5,p{
+        font-size: 10px;
+    }
+    
+h1{
+
+    display: none;
+}
+    } 

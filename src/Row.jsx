@@ -11,12 +11,12 @@ const base_Url='https://image.tmdb.org/t/p/original'
     setMovies(request.data.results);
     return request;
 
-  }
+  } 
   fetchData();
  },[fetchUrl])
   return (
     <div className='row'>
-      <h2 className='text-2xl font-semibold'>{title}</h2>
+      <h2 className='title text-2xl font-semibold'>{title}</h2>
       <div className='row__posters'> 
       {
         movies.map((movie)=>(
